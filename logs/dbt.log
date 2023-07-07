@@ -1,0 +1,54 @@
+[0m18:37:34.976596 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f35163e65c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3514eb16f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3514eb1e10>]}
+
+
+============================== 18:37:34.978682 | c8bdd1f3-1ea5-4189-8a5e-c418dd74fca7 ==============================
+[0m18:37:34.978682 [info ] [MainThread]: Running with dbt=1.5.2
+[0m18:37:34.979114 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/adiallo/.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m18:37:34.979805 [debug] [MainThread]: Starter project path: /home/adiallo/cours_dbt_tp/env/lib/python3.10/site-packages/dbt/include/starter_project
+[0m18:42:35.801486 [info ] [MainThread]: Profile cours_dbt_tp written to /home/adiallo/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:42:35.802916 [info ] [MainThread]: 
+Your new dbt project "cours_dbt_tp" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:42:35.804774 [debug] [MainThread]: Command `dbt init` succeeded at 18:42:35.804404 after 300.83 seconds
+[0m18:42:35.805733 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f35163e65c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3514eb1ea0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3514eb16f0>]}
+[0m18:42:35.806347 [debug] [MainThread]: Flushing usage events
+[0m18:43:29.464523 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0f2eeea5c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0f2d9ad6f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0f2d9ade10>]}
+
+
+============================== 18:43:29.466627 | 2e003ff0-8f9a-4fe5-8060-249d14b52937 ==============================
+[0m18:43:29.466627 [info ] [MainThread]: Running with dbt=1.5.2
+[0m18:43:29.467045 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/home/adiallo/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m18:43:29.467393 [info ] [MainThread]: dbt version: 1.5.2
+[0m18:43:29.467658 [info ] [MainThread]: python version: 3.10.6
+[0m18:43:29.467892 [info ] [MainThread]: python path: /home/adiallo/cours_dbt_tp/env/bin/python3
+[0m18:43:29.468116 [info ] [MainThread]: os info: Linux-5.19.0-45-generic-x86_64-with-glibc2.35
+[0m18:43:29.468347 [info ] [MainThread]: Using profiles.yml file at /home/adiallo/.dbt/profiles.yml
+[0m18:43:29.468575 [info ] [MainThread]: Using dbt_project.yml file at /home/adiallo/cours_dbt_tp/dbt_project.yml
+[0m18:43:29.468862 [info ] [MainThread]: Configuration:
+[0m18:43:29.654650 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:43:29.655114 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m18:43:29.655394 [info ] [MainThread]: Required dependencies:
+[0m18:43:29.655661 [debug] [MainThread]: Executing "git --help"
+[0m18:43:29.661680 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:43:29.662041 [debug] [MainThread]: STDERR: "b''"
+[0m18:43:29.662246 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:43:29.662497 [info ] [MainThread]: [31m1 check failed:[0m
+[0m18:43:29.662720 [info ] [MainThread]: Could not load dbt_project.yml
+
+[0m18:43:29.663127 [debug] [MainThread]: Command `dbt debug` failed at 18:43:29.663054 after 0.20 seconds
+[0m18:43:29.663379 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0f2eeea5c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0f2d9aea10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0f2c936ec0>]}
+[0m18:43:29.663642 [debug] [MainThread]: Flushing usage events

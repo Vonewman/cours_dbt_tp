@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: "COURS_DBT"
+    description: "Base de donnees source COURS_DBT"
+    database: "COURS_DBT"
+    schema: "PUBLIC"
+    tables:
+      - name: "SALESTEAM"
+        columns:
+        - name: sales_rep
+          tests:
+            - not_null
+        - name: sales_rep_id
+          tests:
+            - not_null
+        - name: company_name
+          tests:
+            - not_null
+        - name: company_id
+          tests:
+            - not_null
